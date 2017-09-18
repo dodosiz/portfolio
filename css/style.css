@@ -1,0 +1,94 @@
+/* ********************************
+GENERAL
+********************************* */
+.container {
+    margin: 0 2%;
+}
+
+body {
+    background-color: #444; 
+}
+
+/* ********************************
+NAVIGATION BAR
+********************************* */
+nav .top-bar {
+    background-color: #666; /* same as body */
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+nav .menu-text {
+    background-color: #666; /* same as body */
+}
+
+a.navigation {
+    background-color: #666; /* same as body */
+    color: black;
+}
+
+a.navigation:hover {
+    background-color: #777; /* a little brighter than body */
+}
+/* ********************************
+HERO
+********************************* */
+section.hero {
+    background-image: url('../img/dark.png');
+    height: 250px;
+    text-align: center;
+    padding: 80px;
+}
+
+a.button {
+    margin-right: 2%;
+    border-radius: 10px;
+}
+
+/* ********************************
+ABOUT SECTION
+********************************* */
+.about {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: rgba(255,255,255,0.7);
+}
+div#about {
+    margin-bottom: 0px;
+}
+/* ********************************
+SKILLS SECTION
+********************************* */
+.skills {
+    padding-top: 2%;
+    background-color: rgba(255,255,255,0.5);
+}
+
+#skills {
+    text-align: center;
+}
+
+/* ********************************
+PORTFOLIO
+********************************* */
+.portfolio {
+    padding-top: 2%;
+    background-color: rgba(255,255,255,0.7);
+}
+
+div #portfolio{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#portfolio {
+    text-align: center;
+}
+
+/* ********************************
+CONTACT
+********************************* */
+.contact {
+    background-color: rgba(255,255,255,0.5);
+    padding-top: 2%;
+}
